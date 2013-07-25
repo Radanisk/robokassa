@@ -3,6 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 version = File.read(File.expand_path("../VERSION",__FILE__)).strip
 
 Gem::Specification.new do |s|
+  s.license     = "MIT"
   s.name        = "robokassa"
   s.version     = version
   s.platform    = Gem::Platform::RUBY
